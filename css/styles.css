@@ -1,0 +1,22 @@
+:root{
+    /*Основной шрифт*/
+    --main-font: 'Roboto' sans-serif;
+    /*Цвет текста*/ 
+    --black-txt-color: #212121;
+    --white-txt-color: #FFFFFF;
+    --gray-txt-color: #757575;
+    /*Цвет фона*/
+    --dark-bgr-color: #2F303A;
+    --white-bgr-color: #FFFFFF;
+    --primary-white-bgr-color:#F5F4FA;
+    --secondary-white-bgr-colot: #F5F5F5;
+
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
