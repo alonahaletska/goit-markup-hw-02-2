@@ -2,9 +2,11 @@
     /*Основной шрифт*/
     --main-font: 'Roboto' sans-serif;
     /*Цвет текста*/ 
-    --black-txt-color: #212121;
+    --black-txt-color:#212121;
+    --tblack-txt-color:#000000;
     --white-txt-color: #FFFFFF;
     --gray-txt-color: #757575;
+    --blue-txt-color: #2196F3;
     /*Цвет фона*/
     --dark-bgr-color: #2F303A;
     --white-bgr-color: #FFFFFF;
@@ -18,5 +20,198 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--black-txt-color);
+}
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    background: var(--white-bgr-color);
+}
+.header-link,
+.footer-link{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--blue-txt-color);
+}
+.header-link-logo{
+    color: var(--tblack-txt-color);
+}
+.nav-link{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black-txt-color);
+}
+.nav-link.current{
+    color: var(--blue-txt-color)
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--blue-txt-color);
+}
+.header-contact{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray-txt-color);
+}
+.header-contact:hover,
+.header-contact:hover{
+    color: var(--blue-txt-color);
+}
+
+.hero{
+    background-color: var(--dark-bgr-color);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--white-txt-color)
+}
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-txt-color);
+    background: var(--blue-txt-color);
+    cursor: pointer;
+
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background: #188CE8;
+}
+.about-title{
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.about-text{
+    font-weight: 400;
+    color: var(--gray-txt-color);
+}
+.services-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.team{
+    background: var(--primary-white-bgr-color);
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color:var(--gray-txt-color);
+}
+.footer{
+    background-color: var(--dark-bgr-color);
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-txt-color)
+}
+.footer-adress{
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--white-txt-color)
+}
+.footer-adress:hover,
+.footer-adress:focus{
+    color: var(--blue-txt-color);
+}
+.footer-contact{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--blue-txt-color);
+}
+
+/*Портфолио*/
+
+
+
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: var(--gray-txt-color);
+}
+
+.filter-button.current{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: var(--black-txt-color);
+    background-color:var(--blue-txt-color);
+
+}
+
+.filter-button.current:hover,
+.filter-button.current:focus{
+    background:var(--blue-txt-color);
+    color: var(--white-txt-color);
+}
+.filter-button{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: var(--black-txt-color);
+}
+.filter-button:hover,
+.filter-button:focus{
+    background:var(--blue-txt-color);
+    color: var(--white-txt-color);
 }
